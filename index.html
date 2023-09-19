@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Porfolio</a></li>
+                    <li><a href="#">Contact</a></li> 
+                </ul>
+            </nav>
+            <div class="header_text">
+                <p>WEB DEVELOPEMENT | VIDEO EDITING | GRAPHICS DESIGN</p>
+                <h1>Hi, I'm <span>Snehasish</span><br>Mohanty.</h1>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/contactsnehasish/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/snehasish_02/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Snehasish002"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.youtube.com/@sini2480"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="containerr">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="me.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me :)</h1>
+                    <p>Hello! I'm Snehasish Mohanty, a versatile creative professional with a passion for web development, video editing, and graphic design. With a unique blend of technical skills and artistic flair, I bring digital visions to life.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p>
+                        <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developement</span><br>HTML | CSS | JAVASCRIPT</li>
+                            <li><span>Video Editing</span><br>After Effect | Premier Pro</li>
+                            <li><span>Graphics Design</span><br>Photoshop</li>
+                        </ul>
+            
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.Tech(CSIT)</span><br>Gandhi Institute For Technological Advancement<br>Bhubhaneswar</li>
+                            <li><span>+2 Science</span><br>Kaptipada H S School<br>Kaptipada</li>
+                            <li><span>Matriculation</span><br>Saraswati Shishu Vidya Mandir <br>Nayabazar, Bhadrak</li>
+                        </ul>
+            
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="services">
+        <div class="containerrr">
+            <h1 class="sub-title">My Skills.</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developement</h2>
+                    <p>I craft interactive and responsive websites using HTML, CSS, and JavaScript. My goal is to make the online world not only visually stunning but also functional and user-friendly.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Video Editing</h2>
+                    <p>Transforming raw footage into compelling stories is my specialty. I use After Effects and Premiere Pro to add magic to videos, whether it's for personal memories or professional presentations.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-object-group"></i>
+                    <h2>Graphics Design</h2>
+                    <p>I have an eye for aesthetics and an arsenal of design skills with Photoshop. Logos, graphics, and visuals are my canvas, and I ensure they captivate your audience and align with your brand.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My projects.</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="amazon.png">
+                    <div class="layer">
+                        <h3>Amazon Clone</h3>
+                        <p>Using HTML & CSS</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="netflix.png">
+                    <div class="layer">
+                        <h3>Netflix Clone</h3>
+                        <p>Using HTML & CSS</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="starbucks.png">
+                    <div class="layer">
+                        <h3>Starbucks Landing Page</h3>
+                        <p>Using HTML & CSS</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> snehasishmohanty9439@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9937940256</p>
+                    <div class="social-media2">
+                        <a href="https://www.linkedin.com/in/contactsnehasish/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/snehasish_02/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Snehasish002"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.youtube.com/@sini2480"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <a href="Snehasish_Mohanty.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right"></div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Snehasish</p>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    
+</body>
+</html>
